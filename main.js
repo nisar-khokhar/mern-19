@@ -9,3 +9,7 @@ const even = () => {
 const odd = () => {
   console.log("odd");
 };
+
+const palindrome = () => {
+  console.log("first");
+};
