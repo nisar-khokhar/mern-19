@@ -5,3 +5,7 @@ const main = () => {
 const even = () => {
   console.log("even");
 };
+
+const odd = () => {
+  console.log("odd");
+};
