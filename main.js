@@ -14,6 +14,6 @@ const palindrome = () => {
   console.log("first");
 };
 
-const newone = () => {
-  console.log("conflict");
+const newoneb2 = () => {
+  console.log("conflictb2");
 };
