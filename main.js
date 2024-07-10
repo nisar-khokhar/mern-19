@@ -13,3 +13,7 @@ const odd = () => {
 const palindrome = () => {
   console.log("first");
 };
+
+const newoneb2 = () => {
+  console.log("conflictb2");
+};
