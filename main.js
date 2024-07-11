@@ -17,3 +17,5 @@ const palindrome = () => {
 const newoneb2 = () => {
   console.log("conflictb2");
 };
+
+console.log("first");
