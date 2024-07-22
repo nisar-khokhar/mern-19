@@ -26,13 +26,17 @@
 
 //var
 
-var a = "before scope";
+// var a = "before scope";
 
-console.log(a);
+// console.log(a);
 
-{
-  var a = "within scope";
-  console.log(a);
-}
+// {
+//   var a = "within scope";
+//   console.log(a);
+// }
 
-console.log(a);
+// console.log(a);
+
+// console.log("a" - 1);
+
+if (true || (false && false && false)) console.log("first");
