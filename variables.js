@@ -36,7 +36,3 @@
 // }
 
 // console.log(a);
-
-// console.log("a" - 1);
-
-if (true || (false && false && false)) console.log("first");
