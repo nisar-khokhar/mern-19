@@ -31,3 +31,23 @@ console.log(arrays.includes(arrays[5].includes(2)));
 
 arrays[arrays.includes("one") ? arrays.indexOf("one") : arrays.length] = 1;
 console.log("After updating the value 'one' with 1 -->", arrays);
+
+//spread and rest operator
+const array = [1, 2, 3, 4, 5, 6];
+const [A, B, ...C] = array;
+console.log("A-->", A, "B-->", B, "C-->", C);
+
+const array1 = array;
+array[1] = "one"; //changes would be seen in original array too (Shallow Copy)
+console.log(array, array1);
+
+const arrayy = [1, 2, 3, 4, 5, 6];
+const arrayy1 = [...arrayy];
+arrayy1[1] = "one";
+console.log(arrayy, arrayy1);
+
+// const arr = [1, 2, 3, [4, 5, 6]];
+// const arr1 = [...arr];
+// arr1[3][1] = 69;
+// arr1[1] = "two";
+// console.log(arr, arr1);
