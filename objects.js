@@ -47,9 +47,14 @@ const obj1 = {
   name: "john",
   age: 20,
   gender: "male",
+  address: {
+    city: "lahore",
+    postalAddress: 54000,
+  },
 };
 
-const obj2 = { ...obj1 };
+const obj2 = JSON.parse(JSON.stringify(obj1));
 
 obj2.age = 21;
-console.log(obj1, obj2);
+obj2.address.postalAddress = 54001;
+console.log("original-->", obj1, "\ncloned-->", obj2);
