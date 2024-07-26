@@ -42,3 +42,14 @@ console.log(followers[1]);
 console.log(Object.keys(person0));
 console.log(Object.values(person0));
 console.log(Object.entries(person1));
+
+const obj1 = {
+  name: "john",
+  age: 20,
+  gender: "male",
+};
+
+const obj2 = { ...obj1 };
+
+obj2.age = 21;
+console.log(obj1, obj2);
