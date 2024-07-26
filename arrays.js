@@ -46,8 +46,8 @@ const arrayy1 = [...arrayy];
 arrayy1[1] = "one";
 console.log(arrayy, arrayy1);
 
-// const arr = [1, 2, 3, [4, 5, 6]];
-// const arr1 = [...arr];
-// arr1[3][1] = 69;
+const arr = [1, 2, 3, [4, 5, 6]];
+const arr1 = JSON.parse(JSON.stringify(arr));
+arr1[3][1] = 69;
 // arr1[1] = "two";
-// console.log(arr, arr1);
+console.log(arr, arr1);
